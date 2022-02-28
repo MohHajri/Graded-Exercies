@@ -157,7 +157,7 @@ function backToMain() {
 
 function start() {
   let target = document.getElementsByClassName("detail-container")[0];
-  target.innerHTML = ""; // delete previous content
+  target.innerHTML = "";
 
   const activeUserIdFromLocalStorage =
     window.localStorage.getItem("activeUserId");
