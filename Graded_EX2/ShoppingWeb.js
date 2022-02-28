@@ -107,7 +107,7 @@ function AddProductData(MyDataList) {
     let ProductDivsConainer = document.getElementsByClassName("container")[0];
     let CreatedDivcontents = `
           <div class="single-perfume-bg">
-            <img src="${MyDataList[i].PerfumeImage}" class="perfume-images" c />
+            <img src="${MyDataList[i].PerfumeImage}" class="perfume-images" />
 
             <div class="perfume-cart">
               <p> 
