@@ -1,4 +1,4 @@
-//information is loaded this file
+//information is loaded this file.
 let MyDataList = [
   {
     PerfumeName: "BLEU DE CHANEL",
