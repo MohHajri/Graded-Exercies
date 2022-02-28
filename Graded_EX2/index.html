@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ShoppingWeb.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <script src="ShoppingWeb.js" async></script>
+    <title>Shop Main Page</title>
+  </head>
+  <body onload="start()">
+    <div class="header">
+      <div class="hajri-logo">
+        <img
+          class="Hajri-logo"
+          src="./pics/solgan.png"
+          alt="OAMK logo"
+        />
+      </div>
+      <div class="right-icons">
+        <ul class="right-list">
+          <li><a href="#">home</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+      </div>
+      <div class="left-icons">
+        <ul class="cart-btn">
+          <!-- <li><a href="#">Sign-up</a></li>  -->
+         <!-- <button type = "button" class = "cart-btn"> click</button>  -->
+          <li class="basket"><a href="#" class="mybasket"><i class="fa badge fa-lg" value=8>&#xf07a; </i></a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <input
+          type="text"
+          class="searchBar"
+          placeholder="What are you looking for?"
+        />
+        <a href=""><button type="submit" class="searchButton">SEARCH</a></button>
+      </div>
+    </div>
+    <div class="detail-container"></div>
+    <div class="container">
+      </div>
+      <div class="cart-container">
+      <table class="table">
+        <div class="entire-shop">
+        </div>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>  
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>£0</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td class="sum-price">£0</td>
+          </tr>
+        </table>
+      </div>
+        </div>
+        
+    <footer class="footer">
+      <p>designed by Hajri</p>
+    </footer>
+  </body>
+</html>
