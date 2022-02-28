@@ -138,6 +138,7 @@ function showDetailView(MyDataList) {
             src="${MyDataList.PerfumeImage}"
             alt=""
             id="productPic"
+             />
              </div>
         <div class="col-2">
           <p>Home / Perfume</p>
