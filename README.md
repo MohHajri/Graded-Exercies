@@ -3,4 +3,4 @@ e-commerce website AND Text-based game - Oulu University of Applied Sciences Pro
 
 Make sure you download all the files and run node. If you do not have np, download it:
 
-npm install -g npm
+npm install
